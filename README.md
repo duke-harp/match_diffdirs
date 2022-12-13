@@ -1,8 +1,9 @@
 `match_diffdirs.sif` is a Singularity container that takes input and reference
 diffusion images (or merely a list of the diffusion gradient directions and
-strengths corresponding to said images) and produces an output image (or list
-of diffusion directions) that corresponds to the subset of input that most
-closely matches reference with respect to the diffusion gradients.
+strengths corresponding to said images).
+The output is a subset of the input image volumes (or list of diffusion
+directions) that best matches to the reference data with respect to the
+diffusion gradients.
 This is useful, for example, when two subject cohorts are acquired with
 different diffusion acquisition parameters, especially extra diffusion
 directions and/or extra shells.
