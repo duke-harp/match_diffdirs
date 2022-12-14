@@ -11,6 +11,8 @@ Each volume/direction in the input dataset is chosen because its diffusion
 vector is the closest (by dot product) to a diffusion vector in the reference
 data set.
 
+Based on MATLAB code by Nan-Kuei Chen.
+
 ## Usage
   `match_diffdirs.sif [other options] IN REF OUT`
 
